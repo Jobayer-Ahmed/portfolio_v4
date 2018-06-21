@@ -1,0 +1,94 @@
+.trigger_buttons {
+	margin-bottom: 50px;
+}
+
+.trigger_buttons ul {
+	list-style: none;
+	text-align: center;
+}
+
+.trigger_buttons ul > li {
+	display: inline-block;
+	margin: 2px 5px;
+}
+
+.trigger_buttons ul > li a {
+	padding: 5px 15px;
+	border: 1px solid #DDE4E6;
+	border-radius: 4px;
+	font-size: 11px;
+	font-family: lato;
+	color: #DDE4E6;
+	letter-spacing: 1px;
+}
+
+.active {
+	color: #fff;
+	border-color: #345 !important;
+	background-color: #345;
+}
+
+.title_box {
+	padding: 30px 40px;
+	border: 1px solid #eaedef;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	text-align: center;
+}
+
+.portfolio_wrapper {
+	margin-bottom: 30px;
+	display: block;
+	transition: 1s ease-in;
+}
+
+.title_box .title {
+	margin-top: 0 !important;
+	color: #345;
+	font-family: lato-bold !important;
+}
+
+.image_box {
+	position: relative;
+	background-color: #fff;
+}
+
+.hover_box {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	overflow: hidden;
+	background-color: rgba(51, 71, 93, 0.6);
+	opacity: 0;
+	transition: .9s;
+}
+
+.hover_box:before {
+	width: 76px;
+	line-height: 76px;
+	content: '\F0CA';
+	font-family: FontAwesome;
+	font-size: 18px;
+	background: #009966;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: -25px;
+	margin-left: -38px;
+	color: #fff;
+}
+
+.image_box:hover .hover_box {
+	opacity: 1;
+}
+
+.hide {
+	display: none;
+}

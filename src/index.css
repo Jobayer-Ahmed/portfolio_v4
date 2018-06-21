@@ -1,0 +1,162 @@
+a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: 0;
+}
+
+/*Font Face*/
+@font-face {
+	font-family: ABeeZee;
+    src: url(https://fonts.gstatic.com/s/abeezee/v11/esDR31xSG-6AGleN2tWkkA.woff2);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+	font-family: lato-thin;
+    src: url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPGQ.woff2);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+	font-family: lato-italic;
+    src: url(https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-q.woff2);
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+	font-family: lato;
+    src: url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+	font-family: lato-bold;
+    src: url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+	font-family: lato-black;
+    src: url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPGQ.woff2);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+	font-family: Oswald;
+    src: url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752GT8G.woff2);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+	font-family: Tangerine;
+    src: url(https://fonts.gstatic.com/s/tangerine/v9/IurY6Y5j_oScZZow4VOxCZZM.woff2);
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+	font-family: fontello;
+    src: url(https://naimjeem.jefcorp.com/wp-content/themes/cvcard/css/fonts/fontello/font/fontello.woff?63985987);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: meddon;
+    src: url(fonts/Meddon.ttf);
+    font-style: normal;
+}
+/*Font Face*/
+
+/*print_preview for resume section*/
+@media print {
+    a, a:hover, a:focus {
+        text-decoration: none !important;
+
+    }
+    a.link_text {
+        display: none;
+    }
+    span.link_text {
+        display: block !important;
+    }
+}
+
+/*Responsive View*/
+@media only screen and (max-width: 691px) {
+    .header ul li a {
+        font-size: 1.4em !important;
+        letter-spacing: .5px;
+    }
+
+    section {
+        width: 100% !important;
+    }
+
+    .content {
+        padding: 1.2em 1em !important;
+    }
+
+    .overly {
+        display: none !important;
+    }
+
+    .col-xs-6 {
+        width: 50% !important;
+    }
+
+    .col-xs-6:nth-child(3) .ibuild:before {
+        content: '' !important;
+    }
+
+    .author_info {
+        padding-top: 12px !important;
+    }
+
+    .intro h2 {
+        font-size: 1.6em !important;
+    }
+
+    .changeText span {
+        margin-top: 8px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .col-xs-6:nth-child(even) .ibuild:before {
+        content: '' !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-sm-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .col-xs-6:nth-child(3) .ibuild:before {
+        content: '' !important;
+    }
+
+    .ibuild div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    section {
+        width: 100%;
+    }
+    
+    .overly {
+        display: none !important;
+    }
+}

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+#contact .content {
+	padding-top: 0px;
+	margin-top: -14px;
+}
+
+.author_name {
+	font-family: 'Tangerine', cursive;
+	font-size: 3em;
+	line-height: 120%;
+	color: #D0DADC;
+	margin-bottom: 0.6em;
+	padding-top: 16px;
+}
+
+.author_photo {
+	position: relative;
+	float: left;
+	width: 115px;
+	height: 135px;
+}
+
+.author_photo img {
+	position: absolute;
+	width: 100%;
+	top: 1px;
+	top: 8px;
+	left: 3px;
+}
+
+.author_info {
+	margin-left: 140px;
+	font-family: lato;
+	font-size: 14.2px;
+}
+
+.author_info i {
+	display: inline-block;
+	padding: 12px 12px;
+	font-size: 15px;
+	color: #fff;
+	margin-right: 14px;
+	margin-bottom: -7px;
+	border-radius: 300px;
+	background-color: #5bcf80;
+	font-weight: 600;
+}
+
+.social {
+	list-style: none;
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
+.social li {
+	display: inline-block;
+	padding: 0;
+	margin-bottom: -3px;
+}
+
+ul.social li > a {
+	transition: .5s;
+	display: block;
+	float: left;
+	margin-right: .7em;
+	margin-bottom: .3em;
+	text-align: center;
+	font-size: 15px;
+	width: 42px;
+	height: 42px;
+	line-height: 40px;
+	color: #345;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: #dde;
+	position: relative;
+}
+
+.facebook:hover {
+	background-color: #3C5FAC;
+	border-color: #3C5FAC;
+	color: #fff;
+}
+
+.twitter:hover {
+	background-color: #5EC3DF;
+	border-color: #5EC3DF;
+	color: #fff;
+}
+
+.linkedin:hover {
+	background-color: #2089B5;
+	border-color: #2089B5;
+	color: #fff;
+}
+
+.plus:hover {
+	background-color: #C63D2D;
+	border-color: #C63D2D;
+	color: #fff;
+}
+
+.instagram:hover {
+	background-color: #3F729B;
+	border-color: #3F729B;
+	color: #fff;
+}
+
+.github:hover {
+	background-color: #222;
+	border-color: #222;
+	color: #fff;
+}
+
+.freecodecamp:hover {
+	background-color: #006400;
+	border-color: #006400;
+	color: #fff;
+}
+
+.codepen:hover {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+
+.behance:hover {
+	background-color: #3878F6;
+	border-color: #3878F6;
+	color: #fff;
+}
+
+.stackoverflow:hover {
+	background-color: #F90;
+	border-color: #F90;
+	color: #fff;
+}
+
+form {
+	margin-top: 4.4em;
+	margin-bottom: 3em;
+}
+
+form div {
+	width: 95%;
+	margin-bottom: 1.8em;
+	
+}
+
+form label {
+	display: block;
+	font-size: 10px;
+	margin-bottom: .2em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #6a7686;
+	font-family: lato;
+}
+
+.textarea {
+	height: 176px;
+}
+
+form input[type=text] {
+	width: 100%;
+	display: block;
+	border: 2px solid #9ca4af;
+	padding: .8em;
+	font-size: 1em;
+	color: #6a7686;
+	border-radius: 4px;
+	transition: .5s border-color;
+}
+
+form input:focus {
+	border-color: #E5E5E5;
+}
+
+
+form input[type=submit] {
+	margin-top: 23px;
+	width: 30%;
+	padding: 1.3em 2.6em;
+	font-size: 12px;
+	letter-spacing: 1px;
+	border-radius: 4px;
+	background-color: #fff;
+	text-transform: uppercase;
+	border: 2px solid #9ca4af;
+	font-family: lato-bold;
+}
+
+form input[type=submit]:hover {
+	background-color: #096;
+	border-color: #096;
+	color: #fff;
+}
